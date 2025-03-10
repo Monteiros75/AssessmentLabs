@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f8f9fa;
+}
+
+header, footer {
+    background-color: #0c26a9;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #d0ff00;
+}
+
+section {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    justify-content: center; /* Centraliza os elementos horizontalmente */
+}
+
+article {
+    flex: 2;
+    background-color: #f4f4f4;
+    padding: 20px;  
+    text-align: justify;
+}
+
+aside {
+    flex: 1;
+    background-color: #ddd;
+    padding: 30px;
+    border-radius: 5px;
+    text-align: justify;
+}
+
+
+.contact-form {
+    flex-basis: 100%; /* Ocupa a largura total */
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 8px;
+    max-width: 500px;
+    margin-top: 20px auto; /* Centraliza o formulário horizontalmente */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+.contact-form h2 {
+    margin-bottom: 1.5rem;
+    color: #0c26a9;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: border-color 0.3s ease-in-out;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    border-color: #f4a261;
+}
+
+.submit-button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.submit-button:hover {
+    background-color: #f4a261;
+    transform: scale(1.05);
+}
+
+footer {
+    margin-top: 20px;
+}
